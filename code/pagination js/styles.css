@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: linear-gradient(to right, #eaebe6, #432b5e); 
+}
+
+th {
+  background: #c6a8e7ab; 
+  color: #080000;
+}
+
+td {
+  color: #000000;
+  background: #f1f1f1fc; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 20px;
+  border: 1px solid #000000;
+  
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.pagination button {
+  margin: 10px;
+  padding: 5px 15px;
+  border: none;
+  background-color: #c9afe8;
+  color: #000000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #ad96eb;
+}
+
+
+
